@@ -1,0 +1,19 @@
+.cartButton {
+    width: 5rem;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 0.7rem;
+    margin-right: 1rem;
+}
+  
+.cartNumber{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    size: 1rem;
+    color: #000000;
+}

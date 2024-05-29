@@ -1,0 +1,11 @@
+.header {
+  background-color: #0F52BA;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageSistem{
+  margin-left: 0.7rem;
+}

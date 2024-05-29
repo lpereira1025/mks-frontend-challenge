@@ -1,0 +1,17 @@
+.footer {
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 2rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.paragraph {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    color: #000000;
+}
