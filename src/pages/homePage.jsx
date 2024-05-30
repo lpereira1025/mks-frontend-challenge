@@ -1,7 +1,7 @@
 "use client";
 import React, { useContext, useEffect } from 'react';
 import Head from 'next/head';
-import fetchProducts from '../api/fetchProducts';
+import fetchProducts from '../api/fetchproducts';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Products from '../components/Products/Products';
