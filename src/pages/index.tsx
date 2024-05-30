@@ -1,11 +1,9 @@
 "use client";
 import Head from 'next/head';
 import HomePage from './homePage';
-import Provider from '../context/Provider'
-
+import Provider from '../context/Provider';
 
 export default function Home() {
-
   return (
     <Provider>
       <Head>
