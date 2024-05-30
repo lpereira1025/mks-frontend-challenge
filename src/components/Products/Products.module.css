@@ -35,7 +35,6 @@
   width: 7.5rem;
   height: 2.3rem;
   color: #2C2C2C;
-  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 0.9rem;
 }
@@ -47,7 +46,6 @@
   border-radius: 0.5rem;
   background-color: #373737;
   color: #fff;
-  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 0.6rem;
   line-height: 1rem;
@@ -55,7 +53,6 @@
 
 .productDescription{
   color: #2C2C2C;
-  font-family: 'Montserrat';
   font-weight: 300;
   font-size: 0.7rem;
   line-height: 0.8rem;
@@ -67,21 +64,12 @@
   height: 2rem;
   border-radius: 0.2rem;
   background-color: #0F52BA;
+  border: none;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
   cursor: pointer;
-}
-
-
-.buttonBuy{
-  width: 4.8rem;
-  height: 1rem;
-  font-family: 'Montserrat';
   font-weight: bold;
-  border: none;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
 }

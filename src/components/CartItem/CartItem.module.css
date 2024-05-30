@@ -1,0 +1,78 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+.cartItemImage {
+  width: 46px;
+  margin-right: 0.7rem;
+}
+
+.cartItemTitle{
+  width: 30%;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-right: 0.7rem;
+}
+
+.cartItemCount{
+  margin-right: 3rem;
+}
+
+.cartItemDivQtd{
+  font-weight: 400;
+  font-size: 0.5rem;
+}
+
+.cartItemDivButtons{
+  width: 5rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #BFBFBF;
+  border-radius: 0.2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cartItemDivButtonsSinals{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cartItemDivButtonsNumber{
+  border-left: 1px solid #BFBFBF;
+  border-right: 1px solid #BFBFBF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.cartItemCarClose{
+  position: relative;
+  padding: 0.5rem;
+  height: 100px;
+}
+ 
+.buttonRemoveItem {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.buttonRemoveItemImg{
+  width: 1.1rem;
+  height: 1.1rem;
+}

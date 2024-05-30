@@ -4,4 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.mainContainer {
+  width: 100%;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 460px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem; /* Adiciona padding para melhorar o layout em telas pequenas */
+  }
 }

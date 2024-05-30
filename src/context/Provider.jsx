@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import propTypes from 'prop-types';
+import AppContext from './AppContext'
 
 function Provider({ children }) {
 
@@ -7,6 +8,7 @@ function Provider({ children }) {
   const [cartItems, setCartItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isCartVisible, setIsCartVisible] = useState(false);
+  const [quantity, setQuantity] = useState(1);
 
   const value = {
     products,
@@ -17,6 +19,8 @@ function Provider({ children }) {
     setCartItems,
     isCartVisible,
     setIsCartVisible,
+    quantity,
+    setQuantity
   };
 
   return (
